@@ -1,0 +1,23 @@
+@media only screen and (min-width: 960px) {
+  footer.row- {
+    flex-flow: column wrap !important;
+  }
+}
+
+footer {
+  display: flex !important;
+  flex-flow: column !important;
+}
+
+@media only screen and (min-width: 960px) {
+  .query-main {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  header.row- {
+    flex-flow: row !important;
+  }
+}

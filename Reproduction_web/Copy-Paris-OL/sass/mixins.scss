@@ -1,0 +1,29 @@
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin justify-head-icon() {
+  width: 56px;
+  height: 56px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+@mixin hidden-news {
+  @media only screen and (max-width: 960px) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+}
